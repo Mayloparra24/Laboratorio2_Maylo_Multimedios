@@ -196,6 +196,46 @@ body {
     text-align: center;
 }
 
+/* Botón de navegación */
+.nav-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.5);
+    z-index: 100;
+}
+
+.nav-button:hover {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    transform: scale(1.1);
+    box-shadow: 0 6px 18px rgba(102, 126, 234, 0.7);
+}
+
+.cartel {
+    background: linear-gradient(135deg, #F4D03F 0%, #F5D547 100%);
+    border: 3px solid #333;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 800px;
+    position: relative;
+}
+
 /* Responsive design */
 @media (max-width: 480px) {
     .word-la, .word-acompana {
