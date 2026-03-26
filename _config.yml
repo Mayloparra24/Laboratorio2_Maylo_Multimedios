@@ -1,0 +1,25 @@
+# Jekyll Configuration for GitHub Pages
+# This tells Jekyll to build from the Docs folder
+
+source: Docs
+destination: Docs/_site
+
+title: La Sede Acompaña
+description: Campaña de concienciación sobre acoso sexual en la Universidad de Costa Rica
+
+# Exclude files from being processed
+exclude:
+  - .git
+  - .gitignore
+  - package.json
+  - node_modules
+
+# Theme (optional)
+theme: minima
+
+# Markdown processor
+markdown: kramdown
+
+# Enable SCSS
+sass:
+  sass_dir: Styles
